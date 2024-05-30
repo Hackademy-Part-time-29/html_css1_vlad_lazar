@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a, img, strong {
+    display: inline-block;
+}
+:root {
+    font-size: 16px;
+}
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
+#max-w {
+    max-width: 410px;
+}
+#center{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#immagine-profilo{
+    max-width: 50%;
+    max-height: 50%;
+}
+#bar-profile-button {
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#image {
+    max-width: 100%;
+}
+#sec-bar-pro{
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.width-divs{
+    width: 410px;
+}
+#upper-bar{
+    display: flex;
+    justify-content: flex-start ;
+    height: 55px;
+}
+
+#mini-div-pro{
+    display: flex;
+}
+#p-let{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.buttons-mod{
+    font-size: 1.0em;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons-icons{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#icons-bar{
+    display: flex;
+    gap: 10px;
+}
+.last-icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
